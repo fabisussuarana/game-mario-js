@@ -20,6 +20,15 @@
     animation: clouds-animation 15s infinite linear;
 }
 
+.gameOver{
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 650px;
+}
+
 .pipe{
     position: absolute;
     bottom: 0;
